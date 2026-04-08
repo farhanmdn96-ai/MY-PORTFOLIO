@@ -753,3 +753,44 @@ footer span a:hover{
     }
     
     }
+@media (max-width: 768px) {
+
+    .home .home-content .text-2 {
+        font-size: 40px;
+    }
+
+    .home .home-content .text-3 {
+        font-size: 22px;
+    }
+
+    .max-width {
+        padding: 0 20px;
+    }
+
+    .navbar .menu {
+        flex-direction: column;
+    }
+
+    .about .about-content,
+    .skills .skills-content,
+    .contact .contact-content {
+        flex-direction: column;
+    }
+
+    .about .left img {
+        width: 100%;
+        height: auto;
+    }
+
+    .services .serv-content .card {
+        width: 100%;
+    }
+
+    .skills .skills-content .column {
+        width: 100%;
+    }
+
+    .contact .contact-content .column {
+        width: 100%;
+    }
+}
